@@ -24,14 +24,34 @@
 		DC15B4D32642AFF200DFF06A /* LoadingViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15B4D22642AFF200DFF06A /* LoadingViewable.swift */; };
 		DC15B4D82642B02800DFF06A /* BannerNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15B4D72642B02800DFF06A /* BannerNotificationView.swift */; };
 		DC15B4DD2642B0AE00DFF06A /* LocalizableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15B4DC2642B0AE00DFF06A /* LocalizableError.swift */; };
-		DC15B5062642CABA00DFF06A /* LoginRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15B5052642CABA00DFF06A /* LoginRequestResponse.swift */; };
+		DC15B5062642CABA00DFF06A /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15B5052642CABA00DFF06A /* LoginResponse.swift */; };
 		DC3CF10F26393901008DEFE6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3CF10E26393901008DEFE6 /* UIColor+Extension.swift */; };
 		DC3CF13726394370008DEFE6 /* CallBacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3CF13626394370008DEFE6 /* CallBacks.swift */; };
 		DC3CF13C26394CE5008DEFE6 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3CF13B26394CE5008DEFE6 /* TextInputView.swift */; };
+		DC424BAC264A7D2C00DF7522 /* ChangePasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC424BAB264A7D2C00DF7522 /* ChangePasswordPage.swift */; };
+		DC424BB9264A8A7B00DF7522 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC424BB8264A8A7B00DF7522 /* UIView+Extension.swift */; };
+		DC424BBE264AB13300DF7522 /* ChangeImagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC424BBD264AB13200DF7522 /* ChangeImagePage.swift */; };
+		DC424BE5264AD62700DF7522 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC424BE4264AD62700DF7522 /* SettingsService.swift */; };
+		DC424BF3264AD6EE00DF7522 /* UserInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC424BF2264AD6EE00DF7522 /* UserInfoResponse.swift */; };
+		DC424C06264B25F200DF7522 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC424C05264B25F200DF7522 /* Config.swift */; };
+		DC424C65264BE0C800DF7522 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC424C64264BE0C800DF7522 /* UIImageView+Extension.swift */; };
+		DC42E4F1264420AB00AE888B /* ProductImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42E4F0264420AB00AE888B /* ProductImageService.swift */; };
+		DC42E4F6264424DF00AE888B /* ChangePasswordResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42E4F5264424DF00AE888B /* ChangePasswordResponse.swift */; };
+		DC42E5012644453000AE888B /* ImageUploadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42E5002644453000AE888B /* ImageUploadResponse.swift */; };
+		DC42E528264549D000AE888B /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42E527264549CF00AE888B /* FloatingTextField.swift */; };
+		DC42E52D26454DB000AE888B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42E52C26454DB000AE888B /* CustomTextField.swift */; };
 		DC59953A26395AD3006DAF06 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59953926395AD3006DAF06 /* UITextField+Extension.swift */; };
 		DC59953F26395F8F006DAF06 /* KeyboardObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59953E26395F8F006DAF06 /* KeyboardObserving.swift */; };
-		DC59954626397BE6006DAF06 /* QRScannerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59954526397BE6006DAF06 /* QRScannerPage.swift */; };
+		DC59954626397BE6006DAF06 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59954526397BE6006DAF06 /* HomePage.swift */; };
 		DC59954B2639950D006DAF06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59954A2639950D006DAF06 /* User.swift */; };
+		DCCB941F2646B18E00D1EBC3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB941E2646B18D00D1EBC3 /* CustomButton.swift */; };
+		DCCB94582646C40500D1EBC3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCCB94562646C40500D1EBC3 /* Localizable.strings */; };
+		DCCB94602646C4D500D1EBC3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB945F2646C4D500D1EBC3 /* String+Extension.swift */; };
+		DCCB94662646C80B00D1EBC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCCB94642646C80B00D1EBC3 /* InfoPlist.strings */; };
+		DCCB94702646CACD00D1EBC3 /* AlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB946F2646CACD00D1EBC3 /* AlertPresentable.swift */; };
+		DCCB94862646FAF000D1EBC3 /* CommonCoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB94852646FAF000D1EBC3 /* CommonCoreError.swift */; };
+		DCCB948B2646FC1300D1EBC3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB948A2646FC1300D1EBC3 /* Service.swift */; };
+		DCE1AAF9264400A800026EDC /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1AAF8264400A800026EDC /* SettingsPage.swift */; };
 		E471918134BA713EC4593592 /* Pods_iControlApp_iControlAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A843DD3A1189C989B85E2D /* Pods_iControlApp_iControlAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,14 +101,38 @@
 		DC15B4D22642AFF200DFF06A /* LoadingViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewable.swift; sourceTree = "<group>"; };
 		DC15B4D72642B02800DFF06A /* BannerNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerNotificationView.swift; sourceTree = "<group>"; };
 		DC15B4DC2642B0AE00DFF06A /* LocalizableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableError.swift; sourceTree = "<group>"; };
-		DC15B5052642CABA00DFF06A /* LoginRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestResponse.swift; sourceTree = "<group>"; };
+		DC15B5052642CABA00DFF06A /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		DC3CF10E26393901008DEFE6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		DC3CF13626394370008DEFE6 /* CallBacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallBacks.swift; sourceTree = "<group>"; };
 		DC3CF13B26394CE5008DEFE6 /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		DC424BAB264A7D2C00DF7522 /* ChangePasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordPage.swift; sourceTree = "<group>"; };
+		DC424BB8264A8A7B00DF7522 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DC424BBD264AB13200DF7522 /* ChangeImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeImagePage.swift; sourceTree = "<group>"; };
+		DC424BE4264AD62700DF7522 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		DC424BF2264AD6EE00DF7522 /* UserInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponse.swift; sourceTree = "<group>"; };
+		DC424C05264B25F200DF7522 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DC424C64264BE0C800DF7522 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DC42E4F0264420AB00AE888B /* ProductImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageService.swift; sourceTree = "<group>"; };
+		DC42E4F5264424DF00AE888B /* ChangePasswordResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordResponse.swift; sourceTree = "<group>"; };
+		DC42E5002644453000AE888B /* ImageUploadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadResponse.swift; sourceTree = "<group>"; };
+		DC42E527264549CF00AE888B /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		DC42E52C26454DB000AE888B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DC59953926395AD3006DAF06 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		DC59953E26395F8F006DAF06 /* KeyboardObserving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserving.swift; sourceTree = "<group>"; };
-		DC59954526397BE6006DAF06 /* QRScannerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerPage.swift; sourceTree = "<group>"; };
+		DC59954526397BE6006DAF06 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		DC59954A2639950D006DAF06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCCB941E2646B18D00D1EBC3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DCCB94462646C2DC00D1EBC3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		DCCB944A2646C2DD00D1EBC3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DCCB94572646C40500D1EBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCCB945E2646C45F00D1EBC3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCCB945F2646C4D500D1EBC3 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DCCB94652646C80B00D1EBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCCB946B2646C81200D1EBC3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCCB946F2646CACD00D1EBC3 /* AlertPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentable.swift; sourceTree = "<group>"; };
+		DCCB94852646FAF000D1EBC3 /* CommonCoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCoreError.swift; sourceTree = "<group>"; };
+		DCCB948A2646FC1300D1EBC3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DCE1AAF8264400A800026EDC /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		E61F40E3B0787CDCA07CE360 /* Pods-iControlApp-iControlAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iControlApp-iControlAppUITests.release.xcconfig"; path = "Target Support Files/Pods-iControlApp-iControlAppUITests/Pods-iControlApp-iControlAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EEF4A9B605876918AEC3D332 /* Pods-iControlApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iControlApp.release.xcconfig"; path = "Target Support Files/Pods-iControlApp/Pods-iControlApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +191,6 @@
 		DC13631C262DAF2600961F62 = {
 			isa = PBXGroup;
 			children = (
-				DC15B5052642CABA00DFF06A /* LoginRequestResponse.swift */,
 				DC136327262DAF2600961F62 /* iControlApp */,
 				DC136341262DAF2900961F62 /* iControlAppTests */,
 				DC13634C262DAF2A00961F62 /* iControlAppUITests */,
@@ -170,21 +213,14 @@
 		DC136327262DAF2600961F62 /* iControlApp */ = {
 			isa = PBXGroup;
 			children = (
-				DC13635E262DB17900961F62 /* Application Layer */,
-				DC13632C262DAF2600961F62 /* AuthPage.swift */,
+				DCE1AAF12643FCFB00026EDC /* Classes */,
 				DC13632E262DAF2600961F62 /* Main.storyboard */,
-				DC136334262DAF2900961F62 /* Assets.xcassets */,
-				DC136336262DAF2900961F62 /* LaunchScreen.storyboard */,
 				DC136339262DAF2900961F62 /* Info.plist */,
 				DC136331262DAF2600961F62 /* iControlApp.xcdatamodeld */,
-				DC136369262DB43500961F62 /* AuthService.swift */,
-				DC3CF10E26393901008DEFE6 /* UIColor+Extension.swift */,
-				DC3CF13626394370008DEFE6 /* CallBacks.swift */,
-				DC15B4C82642AB2500DFF06A /* AuthPageViewModel.swift */,
-				DC15B4CD2642AF6700DFF06A /* BannerNotificationPresentable.swift */,
-				DC15B4D22642AFF200DFF06A /* LoadingViewable.swift */,
-				DC15B4D72642B02800DFF06A /* BannerNotificationView.swift */,
-				DC15B4DC2642B0AE00DFF06A /* LocalizableError.swift */,
+				DCCB94562646C40500D1EBC3 /* Localizable.strings */,
+				DC136334262DAF2900961F62 /* Assets.xcassets */,
+				DC136336262DAF2900961F62 /* LaunchScreen.storyboard */,
+				DCCB94642646C80B00D1EBC3 /* InfoPlist.strings */,
 			);
 			path = iControlApp;
 			sourceTree = "<group>";
@@ -212,13 +248,145 @@
 			children = (
 				DC136328262DAF2600961F62 /* AppDelegate.swift */,
 				DC13632A262DAF2600961F62 /* SceneDelegate.swift */,
-				DC3CF13B26394CE5008DEFE6 /* TextInputView.swift */,
-				DC59953926395AD3006DAF06 /* UITextField+Extension.swift */,
-				DC59953E26395F8F006DAF06 /* KeyboardObserving.swift */,
-				DC59954526397BE6006DAF06 /* QRScannerPage.swift */,
-				DC59954A2639950D006DAF06 /* User.swift */,
 			);
 			path = "Application Layer";
+			sourceTree = "<group>";
+		};
+		DCE1AAD92643FBA700026EDC /* Business Layer */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1AADA2643FBDF00026EDC /* Common */,
+				DCE1AADB2643FBF400026EDC /* Model */,
+				DCE1AADC2643FBFF00026EDC /* Service */,
+			);
+			path = "Business Layer";
+			sourceTree = "<group>";
+		};
+		DCE1AADA2643FBDF00026EDC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CF13626394370008DEFE6 /* CallBacks.swift */,
+				DC15B4DC2642B0AE00DFF06A /* LocalizableError.swift */,
+				DCCB94852646FAF000D1EBC3 /* CommonCoreError.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DCE1AADB2643FBF400026EDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC59954A2639950D006DAF06 /* User.swift */,
+				DC15B5052642CABA00DFF06A /* LoginResponse.swift */,
+				DC42E4F5264424DF00AE888B /* ChangePasswordResponse.swift */,
+				DC42E5002644453000AE888B /* ImageUploadResponse.swift */,
+				DC424BF2264AD6EE00DF7522 /* UserInfoResponse.swift */,
+				DC424C05264B25F200DF7522 /* Config.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCE1AADC2643FBFF00026EDC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC136369262DB43500961F62 /* AuthService.swift */,
+				DC42E4F0264420AB00AE888B /* ProductImageService.swift */,
+				DCCB948A2646FC1300D1EBC3 /* Service.swift */,
+				DC424BE4264AD62700DF7522 /* SettingsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DCE1AADD2643FC2B00026EDC /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1AAEF2643FCB000026EDC /* Auth */,
+				DCE1AAE12643FC3800026EDC /* Home */,
+				DCE1AAFD264400AC00026EDC /* Settings */,
+				DCE1AAE22643FC5200026EDC /* Common */,
+				DCE1AAE72643FC6700026EDC /* Extensions */,
+				DCE1AAE82643FC7C00026EDC /* Protocols */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		DCE1AAE12643FC3800026EDC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC59954526397BE6006DAF06 /* HomePage.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DCE1AAE22643FC5200026EDC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1AAE62643FC5A00026EDC /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DCE1AAE62643FC5A00026EDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC15B4D72642B02800DFF06A /* BannerNotificationView.swift */,
+				DC3CF13B26394CE5008DEFE6 /* TextInputView.swift */,
+				DC42E527264549CF00AE888B /* FloatingTextField.swift */,
+				DC42E52C26454DB000AE888B /* CustomTextField.swift */,
+				DCCB941E2646B18D00D1EBC3 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCE1AAE72643FC6700026EDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CF10E26393901008DEFE6 /* UIColor+Extension.swift */,
+				DC59953926395AD3006DAF06 /* UITextField+Extension.swift */,
+				DCCB945F2646C4D500D1EBC3 /* String+Extension.swift */,
+				DC424BB8264A8A7B00DF7522 /* UIView+Extension.swift */,
+				DC424C64264BE0C800DF7522 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCE1AAE82643FC7C00026EDC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DC15B4D22642AFF200DFF06A /* LoadingViewable.swift */,
+				DC15B4CD2642AF6700DFF06A /* BannerNotificationPresentable.swift */,
+				DC59953E26395F8F006DAF06 /* KeyboardObserving.swift */,
+				DCCB946F2646CACD00D1EBC3 /* AlertPresentable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DCE1AAEF2643FCB000026EDC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				DC15B4C82642AB2500DFF06A /* AuthPageViewModel.swift */,
+				DC13632C262DAF2600961F62 /* AuthPage.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DCE1AAF12643FCFB00026EDC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC13635E262DB17900961F62 /* Application Layer */,
+				DCE1AAD92643FBA700026EDC /* Business Layer */,
+				DCE1AADD2643FC2B00026EDC /* Presentation Layer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DCE1AAFD264400AC00026EDC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1AAF8264400A800026EDC /* SettingsPage.swift */,
+				DC424BAB264A7D2C00DF7522 /* ChangePasswordPage.swift */,
+				DC424BBD264AB13200DF7522 /* ChangeImagePage.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +479,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = DC13631C262DAF2600961F62;
 			productRefGroup = DC136326262DAF2600961F62 /* Products */;
@@ -330,8 +499,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC136338262DAF2900961F62 /* LaunchScreen.storyboard in Resources */,
+				DCCB94582646C40500D1EBC3 /* Localizable.strings in Resources */,
 				DC136335262DAF2900961F62 /* Assets.xcassets in Resources */,
 				DC136330262DAF2600961F62 /* Main.storyboard in Resources */,
+				DCCB94662646C80B00D1EBC3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,21 +630,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC42E4F6264424DF00AE888B /* ChangePasswordResponse.swift in Sources */,
+				DC424BF3264AD6EE00DF7522 /* UserInfoResponse.swift in Sources */,
 				DC15B4CE2642AF6700DFF06A /* BannerNotificationPresentable.swift in Sources */,
 				DC3CF13C26394CE5008DEFE6 /* TextInputView.swift in Sources */,
 				DC13632D262DAF2600961F62 /* AuthPage.swift in Sources */,
-				DC59954626397BE6006DAF06 /* QRScannerPage.swift in Sources */,
-				DC15B5062642CABA00DFF06A /* LoginRequestResponse.swift in Sources */,
+				DCCB94862646FAF000D1EBC3 /* CommonCoreError.swift in Sources */,
+				DCCB941F2646B18E00D1EBC3 /* CustomButton.swift in Sources */,
+				DC59954626397BE6006DAF06 /* HomePage.swift in Sources */,
+				DCCB94602646C4D500D1EBC3 /* String+Extension.swift in Sources */,
+				DC15B5062642CABA00DFF06A /* LoginResponse.swift in Sources */,
 				DC15B4C92642AB2500DFF06A /* AuthPageViewModel.swift in Sources */,
 				DC59953F26395F8F006DAF06 /* KeyboardObserving.swift in Sources */,
 				DC3CF13726394370008DEFE6 /* CallBacks.swift in Sources */,
+				DCCB948B2646FC1300D1EBC3 /* Service.swift in Sources */,
+				DC42E5012644453000AE888B /* ImageUploadResponse.swift in Sources */,
 				DC136329262DAF2600961F62 /* AppDelegate.swift in Sources */,
+				DC42E4F1264420AB00AE888B /* ProductImageService.swift in Sources */,
+				DC424C06264B25F200DF7522 /* Config.swift in Sources */,
 				DC15B4DD2642B0AE00DFF06A /* LocalizableError.swift in Sources */,
 				DC59954B2639950D006DAF06 /* User.swift in Sources */,
+				DC424BE5264AD62700DF7522 /* SettingsService.swift in Sources */,
 				DC13636A262DB43500961F62 /* AuthService.swift in Sources */,
+				DC424BAC264A7D2C00DF7522 /* ChangePasswordPage.swift in Sources */,
 				DC3CF10F26393901008DEFE6 /* UIColor+Extension.swift in Sources */,
+				DC42E528264549D000AE888B /* FloatingTextField.swift in Sources */,
+				DC424BBE264AB13300DF7522 /* ChangeImagePage.swift in Sources */,
+				DCCB94702646CACD00D1EBC3 /* AlertPresentable.swift in Sources */,
 				DC59953A26395AD3006DAF06 /* UITextField+Extension.swift in Sources */,
 				DC13632B262DAF2600961F62 /* SceneDelegate.swift in Sources */,
+				DCE1AAF9264400A800026EDC /* SettingsPage.swift in Sources */,
+				DC424C65264BE0C800DF7522 /* UIImageView+Extension.swift in Sources */,
+				DC424BB9264A8A7B00DF7522 /* UIView+Extension.swift in Sources */,
+				DC42E52D26454DB000AE888B /* CustomTextField.swift in Sources */,
 				DC15B4D32642AFF200DFF06A /* LoadingViewable.swift in Sources */,
 				DC136333262DAF2600961F62 /* iControlApp.xcdatamodeld in Sources */,
 				DC15B4D82642B02800DFF06A /* BannerNotificationView.swift in Sources */,
@@ -516,6 +705,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DC13632F262DAF2600961F62 /* Base */,
+				DCCB94462646C2DC00D1EBC3 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -524,8 +714,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				DC136337262DAF2900961F62 /* Base */,
+				DCCB944A2646C2DD00D1EBC3 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCB94562646C40500D1EBC3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCB94572646C40500D1EBC3 /* Base */,
+				DCCB945E2646C45F00D1EBC3 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DCCB94642646C80B00D1EBC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCB94652646C80B00D1EBC3 /* Base */,
+				DCCB946B2646C81200D1EBC3 /* ru */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -535,6 +744,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -596,6 +806,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

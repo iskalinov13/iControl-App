@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  iControlApp
+
+  Created by Farukh Iskalinov on 8.05.21.
+  
+*/
+
+"phone.number" = "Phone number";
+"success" = "Success";
+
+/* Error */
+"error" = "Error";
+"error.network.msg" = "Server connection error";
+"error.serialization.msg" = "Data processing error";
+"error.server.msg" = "An error has occurred, please try again";
+"error.unknown.msg" = "Something went wrong, please try again later";
+"error.no.data.msg" = "The data could not be read because it is missing";
+"error.empty.required.msg" = "Not all fields are filled";
+"error.unauthorized.msg" = "An active account with the specified credentials was not found";
+"error.password.verification.msg" = "The password you entered is incorrect. Please try again";

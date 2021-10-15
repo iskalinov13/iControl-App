@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  iControlApp
+
+  Created by Farukh Iskalinov on 8.05.21.
+  
+*/
+
+"NSCameraUsageDescription" = "iControl would like to access to your camera to upload images or scan a barcode. Your photos will not be shared without your permission";
+"NSPhotoLibraryUsageDescription" = "iControl would like to access your photo gallery to upload images. Your photos will not be shared without your permission";

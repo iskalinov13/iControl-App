@@ -39,12 +39,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="running-man" width="512" height="512"/>
+        <image name="running-man" width="361" height="412"/>
         <namedColor name="color-background">
-            <color red="0.16470588235294117" green="0.28627450980392155" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.16862745098039217" green="0.30588235294117649" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="color-main">
-            <color red="0.086274512112140656" green="0.94901961088180542" blue="0.57254904508590698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.08235294371843338" green="0.7764706015586853" blue="0.47058823704719543" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
